@@ -12,13 +12,11 @@
 LICENSE = "CLOSED"
 LIC_FILES_CHKSUM = ""
 
-SRC_URI = "git://git@github.com/datahigh/helloworld.git;protocol=ssh;branch=master \
-           file://0001-Updating-Cargo-toml-and-lock-for-Rust-edition-2021.patch \
-           "
+SRC_URI = "git://github.com/datahigh/helloworld-rust.git;protocol=https;branch=master"
 
 # Modify these as desired
 PV = "1.0+git"
-SRCREV = "16645f91c049c1b0f951a3aff65f674f61f516b9"
+SRCREV = "258a37902c17b62586993c6214ba3972c2f281fc"
 
 S = "${WORKDIR}/git"
 
